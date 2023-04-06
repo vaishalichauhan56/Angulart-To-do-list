@@ -1,0 +1,6 @@
+<p>todo works!</p>
+<div *ngFor="let todo of todoList">
+    <app-todo-item [todo] = "todo"> 
+        <!-- [todo] is binding the app-todo-item component todo object -->
+    </app-todo-item>
+</div>
